@@ -1,0 +1,93 @@
+
+.title-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.5rem;
+  color: #C9A672;
+}
+
+section {
+    padding: 2rem 0;
+  }
+  
+  .add-img {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #906E39;
+    border-radius: 20px;
+    width: 50rem;
+    height: 5rem;
+    cursor: pointer;
+    font-size: large;
+  }
+  
+  
+  .info-span {
+    font-weight: lighter;
+    font-size: small;
+    padding-top: 0.5rem;
+  }
+  
+  input {
+    display: none;
+  }
+  
+  
+  .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    margin: 1rem 0.5rem;
+    padding-bottom: 0.3rem;
+    position: relative;
+    border:1px solid #C9A672;
+  }
+  
+  .delete-btn {
+    position: absolute;
+    bottom: 0.1rem;
+    right: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(215, 98, 98);
+  }
+  
+  .delete-btn:hover {
+    background-color: red;
+  }
+  
+  .image p {
+    padding: 0 0.5rem;
+    margin: 0;
+  }
+  
+  .upload-btn {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 20px;
+    width: 9rem;
+    height: 2rem;
+    color: white;
+    background-color: green;
+  }
+  
+  .error {
+    text-align: center;
+  }
+  
+  .error span {
+    color: red;
+  }

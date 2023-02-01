@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background: linear-gradient(
+    180deg,
+    #000000,
+    #110c14,
+    #1b1520,
+    #251c2d,
+    #2f223a,
+    #3a2948,
+    #453056,
+    #503765,
+    #5b3e74,
+    #674683,
+    #734d93,
+    #7f55a3
+  );
+  color: #bebebe;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.calendar-schedule-list {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
 }
+
+

@@ -1,0 +1,39 @@
+.employee-container {
+  margin: 1rem;
+  padding: 0.3rem;
+  display: flex;
+  width: 8rem;
+  height: 8rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid #906e39;
+  border-radius: 30px;
+  /* background-color: #343a40; */
+  background: radial-gradient(circle at top, #B3A266, #000);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.employee-container:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-out;
+}
+
+.employee-avatar {
+  display: flex;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.employee-detail {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 1.5rem;
+}

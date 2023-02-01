@@ -1,0 +1,34 @@
+.time-range-container {
+    width: fit-content;
+    width: fit-content;
+    height: 15rem;
+    overflow-y: auto;
+    border: 1px solid #906E39;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+
+    
+    
+}
+
+.time-cell {
+    cursor: pointer;
+    padding: 0.2rem;
+    
+}
+
+.time-cell:hover{
+    background-color:grey;
+}
+
+.time-cell.selected{
+    background-color: red;
+}
+
+.comment {
+    border: 1px solid #906E39;
+   
+    border-radius: 5px;
+    color: white;
+}
